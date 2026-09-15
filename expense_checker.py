@@ -9,7 +9,7 @@ import sys
 
 
 def approval_level(amount: int) -> str:
-    if amount <= 50000:  # 意図的なバグ: 5万円ちょうどが所属長判定になってしまう(本来は部門長)
+    if amount < 50000:  # 意図的なバグ: 5万円ちょうどが所属長判定になってしまう(本来は部門長)
         return "所属長"
     elif amount < 200000:
         return "部門長"
