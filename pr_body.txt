@@ -1,0 +1,10 @@
+## �T�v 
+5���~���傤�ǂ̌o��\�����A�{���̕��咷���F�ł͂Ȃ����������F�Ɣ��肳��Ă����B 
+
+## �ύX���e 
+- expense_checker.py�̋��E������ amount <= 50000 ���� amount < 50000 �ɏC�� 
+
+## ����m�F 
+- test_expense_checker.py �����s���A�S�A�T�[�V�������������邱�Ƃ��m�F 
+
+Closes #1 
